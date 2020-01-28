@@ -1,3 +1,5 @@
-Welcome to my School project! I'm just here to do some programing and the such.
+# Welcome to my first Github Project!
 
-Go to https://godhelpmejoemama.github.io/helpme.html to look through what I've been doing.
+This is just a little school project that I need to do for *reasons*... Don't question it.
+
+Go to "https://godhelpmejoemama.github.io/index.html" to view it.
