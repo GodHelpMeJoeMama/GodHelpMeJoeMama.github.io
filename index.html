@@ -75,7 +75,7 @@
     Web-Seption
   </h1>
   
-  <p>Here,I will teach you the basics of "making a website" (Aka, mostly basic coding stuff), and hopefully you'll be able to replicate this website yourself! (Or just copy the source code on the github page)</p>
+  <p>Here, I will teach you the basics of “making a website” (aka, just teaching you the basics of html and css coding), and hopefully you’ll be able to make a website like this yourself! (Or, you can just copy this site’s source code on the Github page.)</p>
   
   <br>
   
@@ -93,16 +93,23 @@
   </h3>
   
   <p>
-    You'll need to create 1 file, "YourWebsite.html".This can be named anything, as long as it has <u>".html"</u> at the end.
-    Next, you'll need to find a hosting provider you hope to host this on.
-    
-    <br> <br>
-    
-    I picked <a href="https://pages.github.com/" target="_blank">Github Pages</a>.
-    
-    <br> <br>
-    
-    Github pages is built right into Github, so if you are already famier with the platform, it's much easier to use. And as another bonus,<u>it's completely free!</u>
+    You’ll need to create 1 file, “index.html”. Index is easier for making a more professional like, due to it automatically opening index through most hosting sites, but if you’re not going to host it, it won’t matter. You can name it anything, so if you really want to, name it whatever you want. Once you have this file on your computer, you’ll need a text editor.
+  </p>
+  
+  <p>
+    I’d suggest using <a href="https://chrome.google.com/webstore/detail/caret/fljalecfjciodhpcledpamjachpmelml" target="_blank">Caret</a> for use on chromebooks, and <a href="https://www.sublimetext.com/" target="_blank">Sublime Text 3</a> for windows users.
+  </p>
+  
+  <p>
+    To test your code after saving it, just open your “_.html” file in your web browser, and refresh each time you update the file.
+  </p>
+  
+  <p>
+    Finally, we need to find out how to host it. This part isn’t mandatory though, so if you just want a file website to show to your friends, it should be good enough. But, if you’re looking for an easy and free web hosting site, just use <a href="https://pages.github.com/" target="_blank">Github Pages</a>.
+  </p>
+  
+  <p>
+    Github Pages has multiple useful features, such as update rollbacks, and it’s an easy place to open source code (so you can see how I did it).
   </p>
   
   <br>
@@ -110,22 +117,50 @@
   <h3>Step 2</h3>
   
   <p>
-    
-    So you'll need to set up your files, it shoud look like <a href="https://github.com/GodHelpMeJoeMama/GodHelpMeJoeMama.github.io/blob/master/Step2.html" target="_blank">this</a>, which should look like <a href="https://godhelpmejoemama.github.io/Step2.html" target="_blank">this</a> (aka, blank).
+    We’ll need to start with the basics of HTML understanding before we can actually set up your page, so here’s how HTML works.
+  </p>
+  
+  <p>
+    HTML uses what is called a “Tag”. A tag is made up of 2 parts, a start tag and an end tag. &#60;_&#62; is the start tag, and &#60;/_&#62; is the end tag. The start tag is what defines the tag, and the end tag is just the same as the start tag but with a “/” before the tag name.
+  </p>
+  
+  <p>HTML tags are used in like a tree. You put tags inside of other tags, such as putting paragraph tags in the “Body” tag (go to next step to understand what I'm talking about).
   </p>
   
   <br>
   
   <h3>Step 3</h3>
   
-  <p>HTML (which is what we'll start with), makes pretty <b>bare bones sites</b>. The whole idea of HTML is it's structure, which is like a "tree". The coding system uses "Tags", which is anything betwen the <s>&#60;_&#62;</s> and the <s>&#60;/_&#62</s>;. A tag always has a start and an end.
+  <p>
+    We’ll need to actually set up our files. So, open up your “_.html” file in your text editor, and put this code in:
+  </p>
+
+  <p>
+    (Note, &#47;* is used to define a comment and *&#47; is used to end one.)
   </p>
   
   <p>
-    Your "Head" tag is everything the site runs when you open it. This would hold scripts, CSS (we'll get to this), titles, logos, and more!
+    <br>
+    <s>
+      &#60;!DOCTYPE HTML&#62; &#47;* This just tells it that this is in HTML and this one doesn’t need an end tag*&#47;
+      <br>
+      <br>
+      &#60;Head&#62; &#47;* Start tag for the “Head”, this is where you’d define the title, styles, scripts, and more *&#47;
+      <br>
+      <br>
+      &#60;/Head&#62; &#47;* This is the end of the Head tag *&#47;
+      <br>
+      <br>
+      &#60;Body&#62; &#47;* This is the start of the “Body”, which is the tag that holds all the things we see, such as headers, paragraphs, and more
+      <br>
+      <br>
+      &#60;/Body&#62; &#47;* This is the end of the Body tag *&#47;
+    </s>
   </p>
-  
-  <p>Your "Body" tag is what we actually put stuff in, so like headers, paragraphs, links, and more.</p>
+  <br>
+  <p>
+    This is just the start very start of the tree. Every tag you use will be either in the Head or Body tag.
+  </p>
   
   <br>
   
